@@ -1,5 +1,5 @@
 numpy>=1.23
-opencv-python>=4.8
+opencv-python-headless
 pandas>=1.5
 emoji>=2.0
 torch>=2.0

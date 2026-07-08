@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #                                     **FINAL YEAR PROJECT :** 
 
 
@@ -31,3 +32,6 @@
 >2. Lane Open/Close Function
 >3. Dynamic to Static at abnormal conditions.
 ---
+=======
+# Traffic-intelligent-analyzer
+>>>>>>> 0db13c77bd0086760fa42ff5be0b0509c81cf6e8
