@@ -66,6 +66,7 @@ classes = get_classes()
 upload_label = "Upload an image" if input_mode == "Image" else "Upload a video"
 uploaded_file = st.file_uploader(upload_label, type=["jpg", "jpeg", "png", "bmp", "mp4", "avi", "mov", "mkv"], accept_multiple_files=False)
 
+# Try and Catch block is used to handle exceptions that may occur during the loading of the model. If a RuntimeError occurs, an error message is displayed and the application stops execution.
 if uploaded_file:
     if input_mode == "Image":
         try:
@@ -142,7 +143,7 @@ if uploaded_file:
                     file_name=Path(output_video_path).name,
                     mime="video/mp4",
                 )
-
+# statistical exaggeration will be don
             with right:
                 st.subheader("Statistics")
                 st.metric("Total vehicles", vehicle_count)
